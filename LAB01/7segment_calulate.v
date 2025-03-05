@@ -39,7 +39,7 @@ assign HEX4[5] = (~SUM[4]&~SUM[3]&~SUM[2]&SUM[0])|(~SUM[4]&~SUM[3]&~SUM[2]&SUM[1
 assign HEX4[4] = (SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&~SUM[1])|(~SUM[4]&SUM[3]&SUM[2]&SUM[1])|(SUM[4]&SUM[3]&~SUM[2]&~SUM[1]);
 assign HEX4[3] = (~SUM[4]&~SUM[2]&~SUM[1]&SUM[0])|(SUM[3]&~SUM[2]&SUM[1]&SUM[0])|(SUM[4]&~SUM[3]&~SUM[2]&SUM[0])|(SUM[4]&SUM[2]&~SUM[1]&SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&~SUM[1]&~SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&SUM[1]&SUM[0])|(~SUM[4]&SUM[3]&SUM[2]&SUM[1]&~SUM[0])|(SUM[4]&SUM[3]&~SUM[2]&~SUM[1]&~SUM[0]);
 assign HEX4[2] = (~SUM[4]&~SUM[3]&~SUM[2]&SUM[1]&~SUM[0])|(~SUM[4]&SUM[3]&SUM[2]&~SUM[1]&~SUM[0])|(SUM[4]&~SUM[3]&SUM[2]&SUM[1]&~SUM[0]);
-assign HEX4[1] = (SUM[3]&SUM[2]&SUM[1]&SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&~SUM[1]&SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&SUM[1]&~SUM[0])|(SUM[4]&~SUM[3]&~SUM[2]&~SUM[1]&~SUM[0])|(SUM[4]&SUM[3]&~SUM[2]&~SUM[1]&~SUM[0])|(SUM[4]&SUM[3]&~SUM[2]&SUM[1]&~SUM[0]);
+assign HEX4[1] = (SUM[3]&SUM[2]&SUM[1]&SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&~SUM[1]&SUM[0])|(~SUM[4]&~SUM[3]&SUM[2]&SUM[1]&~SUM[0])|(SUM[4]&~SUM[3]&~SUM[2]&~SUM[1]&~SUM[0])|(SUM[4]&SUM[3]&~SUM[2]&~SUM[1]&SUM[0])|(SUM[4]&SUM[3]&~SUM[2]&SUM[1]&~SUM[0]);
 assign HEX4[0] = (~SUM[4]&~SUM[3]&SUM[2]&~SUM[0])|(~SUM[4]&SUM[2]&SUM[1]&~SUM[0])|(SUM[4]&~SUM[2]&~SUM[1]&~SUM[0])|(SUM[4]&SUM[3]&~SUM[2]&~SUM[0])|(~SUM[4]&~SUM[3]&~SUM[2]&~SUM[1]&SUM[0])|(~SUM[4]&SUM[3]&~SUM[2]&SUM[1]&SUM[0])|(SUM[4]&~SUM[3]&SUM[2]&~SUM[1]&SUM[0]);
 
 
