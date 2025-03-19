@@ -71,7 +71,8 @@ end
 always@(*)begin
     cal_ab = A_ff * B_ff;
     cal_cd = C_ff * D_ff;
-    {cout,result} = cal_ab_ff + cal_cd_ff;
+    // {cout,result} = cal_ab_ff + cal_cd_ff;
+    {cout,result} = cal_ab + cal_cd;
 end
 
 
